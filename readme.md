@@ -1,4 +1,4 @@
-# Notlify - Task Reminder Chrome Extension
+# Notlify - Chrome Extension for Smart Task Reminders
 
 Notlify is a Chrome extension designed to help users manage their tasks efficiently. With features like scheduled notifications, persistent task storage, and a visually appealing notification modal, Notlify ensures users never miss their deadlines. It leverages Chrome's APIs for seamless performance and an intuitive user experience.
 
@@ -39,7 +39,8 @@ Notlify is a Chrome extension designed to help users manage their tasks efficien
 
 **Screenshot: Modal Notification Example**
 <div style="text-align: center;">
-  <img src="./images/Demo/Custom-Modal.png" alt="Custom Modal" />
+  <img src="./images/Demo/Custom-Modal1.png" alt="Custom Modal" />
+  <img src="./images/Demo/Custom-Modal2.png" alt="Custom Modal" />
 </div>
 
 ### 4. **Task Deletion and Automatic Cleanup**
@@ -101,14 +102,14 @@ Notlify is a Chrome extension designed to help users manage their tasks efficien
   <img src="./images/Demo/Task-Management.png" alt="Task Management" width="350" height="400"/>
 </div>
 
-### 2. Notification Example
+### 2. Chrome Notification Example
 <div style="text-align: center;">
   <img src="./images/Demo/Notification.png" alt="Chrome Notification Example"/>
 </div>
 
 ### 3. Modal Notification Example
 <div style="text-align: center;">
-  <img src="./images/Demo/Custom-Modal.png" alt="Modal Notification Example"/>
+  <img src="./images/Demo/Custom-Modal1.png" alt="Modal Notification Example"/>
 </div>
 
 
