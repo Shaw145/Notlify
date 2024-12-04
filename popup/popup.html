@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notlify</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="popup.css">
+    <script src="popup.js" defer></script>
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="title">
+            <img src="../images/logo.png" alt="logo">
+            <h1 class="title-txt">Notlify</h1>
+        </div>
+
+        <div class="content ">
+
+            <!-- <div class="task">
+                <div class="dateTime">
+                    <p class="date">01/12/2024</p>
+                    <p class="time">04:30 PM</p>
+                </div>
+
+                <div class="fullTask">
+                    <p class="mainTask">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, commodi. Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+
+                    <button class="delete">
+                        <i class='bx bx-trash'></i>
+                    </button>
+
+                </div>
+            </div>
+            <div class="task">
+                <div class="dateTime">
+                    <p class="date">01/12/2024</p>
+                    <p class="time">04:30 PM</p>
+                </div>
+
+                <div class="fullTask">
+                    <p class="mainTask">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, commodi. Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+
+                    <button class="delete">
+                        <i class='bx bx-trash'></i>
+                    </button>
+
+                </div>
+            </div>
+            <div class="task">
+                <div class="dateTime">
+                    <p class="date">01/12/2024</p>
+                    <p class="time">04:30 PM</p>
+                </div>
+
+                <div class="fullTask">
+                    <p class="mainTask">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, commodi. Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+
+                    <button class="delete">
+                        <i class='bx bx-trash'></i>
+                    </button>
+
+                </div>
+            </div> -->
+
+        </div>
+
+        <div class="input-area">
+            <textarea name="" id="task-input" placeholder="Enter Your Task..."></textarea>
+
+            <div class="send">
+                
+                <!-- Schedule button -->
+                <div class="schedule">
+                    <p class="scheduled-date hide"></p>
+
+                    <button id="scheduleBtn" class="btn">Schedule</button>
+
+                    <!--Button Modal -->
+                    <div class="modal-overlay" id="modalOverlay"></div>
+                    <div class="modal" id="scheduleModal">
+                        <div class="modal-header">Schedule Your Task</div>
+                        <input type="datetime-local" id="datetime">
+                        <div class="modal-footer">
+                            <button class="btn cancel">Cancel</button>
+                            <button class="confirm btn" disabled>Confirm</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Save Button -->
+                <button class="bookmarkBtn">
+                    <span class="IconContainer">
+                      <svg viewBox="0 0 384 512" height="0.9em" class="icon">
+                        <path
+                          d="M0 48V487.7C0 501.1 10.9 512 24.3 512c5 0 9.9-1.5 14-4.4L192 400 345.7 507.6c4.1 2.9 9 4.4 14 4.4c13.4 0 24.3-10.9 24.3-24.3V48c0-26.5-21.5-48-48-48H48C21.5 0 0 21.5 0 48z"
+                        ></path>
+                      </svg>
+                    </span>
+                    <p class="text">Save</p>
+                </button>
+
+            </div>
+        </div>
+
+
+    </div>
+
+</body>
+</html>
