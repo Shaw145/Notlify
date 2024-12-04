@@ -1,7 +1,7 @@
 {
     "manifest_version" : 3,
     "name" : "Notlify",
-    "description" : "Schedule a Remainder and get notified on time.",
+    "description" : "Notlify is a smart task reminder extension for Chrome. Schedule tasks and receive notifications on time. Never miss a reminder again!",
     "version" : "0.0.1",
     "action" : {
         "default_popup" : "popup/popup.html"

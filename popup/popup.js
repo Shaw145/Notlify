@@ -184,8 +184,8 @@ function display() {
         const validTasks = userData.filter((task) => {
             const scheduledTime = new Date(task.date + ' ' + task.time).getTime(); // Parse task's date and time
 
-            //const expiryTime = scheduledTime + 24 * 60 * 60 * 1000; // 24 hours after scheduled time
-            const expiryTime = scheduledTime + 1 * 60 * 1000; // 1 min after scheduled time
+            const expiryTime = scheduledTime + 24 * 60 * 60 * 1000; // 24 hours after scheduled time
+            //const expiryTime = scheduledTime + 1 * 60 * 1000; // 1 min after scheduled time (for testing)
             
             return expiryTime > now; // Keep tasks within 24 hours of expiry
         });
